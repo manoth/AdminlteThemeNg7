@@ -5,9 +5,10 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { LayoutsModule } from '../layouts/layouts.module';
 
 import { DashboradComponent } from './dashborad/dashborad.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
-  declarations: [DashboradComponent],
+  declarations: [DashboradComponent, LayoutComponent],
   imports: [
     CommonModule,
     PagesRoutingModule,
